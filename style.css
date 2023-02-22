@@ -14,7 +14,6 @@ body {
     font-family: 'Lato', sans-serif;
     margin: auto;
     max-width: 80%;
-    padding: 1rem 0;
 }
 
 header {
@@ -112,7 +111,7 @@ header {
 }
 
 .community {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .education {
