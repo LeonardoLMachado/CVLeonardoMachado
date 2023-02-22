@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: auto;
+    max-width: 80%;
+    padding: 1rem 0;
+}
+
+header {
+    margin-bottom: 4rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-brands, .fa-solid {
+    max-width: 1.3rem;
+    font-size: 1.2rem;
+    padding-right: .3rem;
+    text-align: justify;
+    color: blue;
+}
+
+.fa-solid {
+    font-size: 1.1rem;
+}
+
+.title_right {
+    width: 60%;
+}
+
+.title_right h1 {
+    font-size: 2.5rem;
+}
+
+.title_right h2 {
+    margin-bottom: 2rem;
+}
+
+.profile_summary {
+    font-weight: 800;
+    margin-bottom: .25rem;
+}
+
+.profile_description {
+    text-align: justify;
+    padding-left: .5rem;
+}
+
+.title_left {
+    display: flex;
+    align-items: center;
+    padding-right: 4rem;
+}
+
+.title_left ul li {
+    margin-bottom: .3rem;
+}
+
+.skills_container {
+    display: flex;
+    gap: 10rem;
+    margin-bottom: 4rem;
+}
+
+
+
+.skills_container h2 {
+    margin-bottom: .5rem;
+}
+
+.hard_skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills_list {
+    display: flex;
+    gap: 2rem;
+    padding-left: 1rem;
+}
+
+
+.experience_container {
+    margin-bottom: 3rem;
+}
+
+.experience_title {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0 .5rem 0;
+}
+
+.experience_title p {
+    font-style: italic;
+}
+
+.experience_container ul {
+    max-width: 85%;
+    text-align: justify;
+}
+
+.community {
+    margin-bottom: 3rem;
+}
+
+.education {
+    margin-bottom: 3rem;
+}
+
+.education h2 {
+    margin-bottom: .25rem;
+}
+
+.education_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.period {
+    font-style: italic;
+}
+
+.languages {
+    margin-bottom: 2rem;
+}
+
+.languages h2 {
+    margin-bottom: .25rem;
+}
